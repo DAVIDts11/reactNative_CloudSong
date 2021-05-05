@@ -8,15 +8,30 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "expo": "~41.0.1",
+    "expo-av": "^9.1.2",
     "expo-status-bar": "~1.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
+  },
+  "checkSubmission": {
+    "ex": "2",
+    "students": [
+      { "id": "309444065", "fullName": "Tsibulsky David", "email": "tsiba1@walla.co.il" }
+    ],
+    "os": "Windows",
+    "device": "Android",
+    "submissionDate": "06/05/2021",
+    "delay": false,
+    "comments": "I worked without any desktop simulator - only with an expo app on my phone - Galaxy Note 9"
   },
   "private": true
 }
